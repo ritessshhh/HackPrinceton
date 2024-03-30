@@ -1,0 +1,89 @@
+.public-posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 85%;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f2dbf6;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.profile-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.profile-name {
+  /* margin-left: 10px; */
+  color: black;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.post-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 10px;
+}
+
+.post-description {
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.play-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.public-play-img {
+  border-radius: 15px;
+  height: 30px;
+  background-color: white;
+}
+.person {
+  background-color: #f6d64bae;
+  border-radius: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.consolation {
+  background-color: #72f4aeae;
+}
+.hope {
+  background-color: #7fb1f1ae;
+}
+
+.categories {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  overflow-x: scroll;
+  padding: 0 10px;
+}
+
+.categories > button {
+  font-size: small;
+  color: black;
+}

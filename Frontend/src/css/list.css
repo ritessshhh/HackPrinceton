@@ -1,0 +1,66 @@
+.list {
+}
+
+.songMood {
+  font-size: small;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.person {
+  height: 40px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.recent {
+}
+
+.likes {
+}
+
+.search {
+  padding: 0;
+  /*width: 50%; */
+  right: 20px;
+  height: 10%;
+}
+.title {
+  color: black;
+}
+.like-title {
+  width: 100%;
+  text-align: left;
+  color: black;
+}
+.rs {
+  margin-left: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.hand {
+  height: 60px;
+}
+
+.list1songs {
+  width: 100px;
+}
+
+.songTitle {
+  font-size: small;
+  text-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 0;
+}

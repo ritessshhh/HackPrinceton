@@ -1,0 +1,79 @@
+.calendar-box {
+}
+
+.react-calendar {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 80px;
+  background-color: #e1d9f8;
+  margin: 15px;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* width: 90%; */
+}
+
+.publicIcon {
+  padding: 10px;
+  background-color: #e1d9f8;
+  border-radius: 50%;
+}
+
+.cal-title {
+  margin-bottom: 50px;
+}
+
+.react-calendar__month-view__days__day {
+  padding: 5px;
+  background-color: #c9b6fc;
+  /* border: 1px solid rgb(109, 11, 189); */
+  color: black;
+}
+.react-calendar__navigation__next2-button {
+  /* display: none; */
+}
+.react-calendar__month-view__weekdays {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.list1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cal-title2 {
+  margin-top: 80px;
+}
+
+.diary-sad {
+  background-color: rgb(255, 57, 57);
+  color: white;
+}
+
+.diary-happy {
+  background-color: rgb(35, 139, 0);
+  color: white;
+}
+
+.diary-disabled {
+  background-color: lightgray;
+}
+
+button {
+  /* height: fit-content; */
+  background-color: #c1b0f3;
+  border: none;
+  border-radius: 10px;
+}
+button:active,
+button:focus {
+  background-color: #f6d9fd;
+  outline: none;
+}

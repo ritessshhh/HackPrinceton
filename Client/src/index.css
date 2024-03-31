@@ -137,3 +137,44 @@ body {
 .p-button-icon.p-c.pi.pi-times{
   background-color: transparent;
 }
+
+.title{
+  width: 500px;
+}
+
+.header.home{
+  margin-top: -20px;
+  margin-bottom: -50px;
+}
+
+.thearpyHeading, .diaryHeading, .thearpyHeading.a, .diaryHeading.b {
+  position: relative;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.thearpyHeading::before, .diaryHeading.b::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease;
+}
+
+.diaryHeading::before, .thearpyHeading.a::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.5s ease;
+}
+
+.thearpyHeading:hover::before, .diaryHeading:hover::before, .thearpyHeading.a:hover::before {
+  width: 100%;
+}

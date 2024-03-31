@@ -21,12 +21,12 @@ This web application is designed to provide music therapy and emotional support 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/music-therapy-app.git
+git clone https://github.com/ritessshhh/mindaid.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd music-therapy-app
+cd mindaid
 ```
 
 3. Install the required dependencies:

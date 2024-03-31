@@ -5,6 +5,7 @@ import { ProgressBar } from 'primereact/progressbar';
 import { Button } from 'primereact/button';
 import { Tooltip } from 'primereact/tooltip';
 import { Tag } from 'primereact/tag';
+import MediaPlayer from "./MediaPlayer";
 
 export default function DiaryArea({ setMode, playList, setPlaylist }) {
     const toast = useRef(null);
@@ -93,14 +94,16 @@ export default function DiaryArea({ setMode, playList, setPlaylist }) {
     const emptyTemplate = () => {
         return (
             <>
-                <div className="flex align-items-center flex-column">
+                <>
+                    <div className="flex align-items-center flex-column">
 
-                    <textarea name="" id="" cols="80" rows="20"></textarea>
-                </div>
-                <div className="card flex justify-content-center">
-                    <Button label="Submit"/>
-                </div>
-                {renderAudioPlayer()}
+                        <textarea name="" id="" cols="80" rows="20"></textarea>
+                    </div>
+                    <div className="card flex justify-content-center">
+                        <Button label="Submit"/>
+                    </div>
+                </>
+                <MediaPlayer />
             </>
         );
     };

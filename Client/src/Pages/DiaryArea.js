@@ -31,6 +31,10 @@ export default function DiaryArea({setMode, playList, setPlaylist}) {
         // Handle the response data here
     };
 
+    const onTemplateUpload2 = () =>{
+        setMode(7);
+    }
+
 
     const onTemplateRemove = (file, callback) => {
         setTotalSize(totalSize - file.size);
@@ -82,7 +86,7 @@ export default function DiaryArea({setMode, playList, setPlaylist}) {
                     <textarea name="" id="" cols="80" rows="20"></textarea>
                 </div>
                 <div className="card flex justify-content-center">
-                    <Button label="Submit"/>
+                    <Button label="Submit" onClick={()=>{onTemplateUpload2()}}/>
                 </div>
             </>
         );

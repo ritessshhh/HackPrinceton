@@ -178,3 +178,74 @@ body {
 .thearpyHeading:hover::before, .diaryHeading:hover::before, .thearpyHeading.a:hover::before {
   width: 100%;
 }
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 60%;
+  max-width: 600px;
+}
+h1, h2 {
+  text-align: center;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-sizing: border-box;
+  height: 150px;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: black;
+}
+#consolingMessage {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+#audioContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-color: #6a11cb;
+  }
+  50% {
+    background-color: #2575fc;
+  }
+  100% {
+    background-color: #6a11cb;
+  }
+}
+
+.heal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import DiaryArea from "./DiaryArea";
+import DiaryArea2 from "./DiaryArea2";
 
 export default function CustomMusic({setMode, playList, setPlaylist}) {
     return (
@@ -9,7 +9,7 @@ export default function CustomMusic({setMode, playList, setPlaylist}) {
             </div>
             <div className="content">
                 <div className="diaryArea">
-                    <DiaryArea setMode={setMode} playList={playList} setPlaylist={setPlaylist}/>
+                    <DiaryArea2 setMode={setMode} playList={playList} setPlaylist={setPlaylist}/>
                 </div>
             </div>
         </div>

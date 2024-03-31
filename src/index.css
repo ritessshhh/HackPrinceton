@@ -133,3 +133,7 @@ body {
   width: 50vw;
   height: 60vh;
 }
+
+.p-button-icon.p-c.pi.pi-times{
+  background-color: transparent;
+}

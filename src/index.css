@@ -119,3 +119,17 @@ body {
 .talk{
   margin-bottom: 5px;
 }
+
+.diaryChose{
+  background-color: transparent;
+}
+
+.diaryArea{
+  height: 60vh;
+}
+
+.innerSpotify{
+  border-radius: 15px;
+  width: 50vw;
+  height: 60vh;
+}

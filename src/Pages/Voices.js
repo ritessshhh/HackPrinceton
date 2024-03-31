@@ -14,7 +14,7 @@ export default function Voices({setMode}) {
                     <h2 className='thearpyHeading'>Create a playlist</h2>
                     <p className='underText'>Create a personalized playlist based on the contents of your diary note.</p>
                 </div>
-                <div className="chatgpt-section homeSection" onClick={()=>{setMode(6)}}>
+                <div className="chatgpt-section homeSection" onClick={()=>{setMode(8)}}>
                     <h2 className='diaryHeading'>Create a song</h2>
                     <p className='underText'>Create a personalized song based on the contents of your diary note.</p>
                 </div>

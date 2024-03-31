@@ -31,7 +31,7 @@ body {
   height: 25em;
   transition: all 0.5s;
   margin: 30px;
-  padding: 15px;
+  padding: 30px;
   border-radius: 10px;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .card{
-  margin-top: 15%;
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,4 +110,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.p-button-danger{
+  background-color: #ef4444;
+}
+
+.talk{
+  margin-bottom: 5px;
 }

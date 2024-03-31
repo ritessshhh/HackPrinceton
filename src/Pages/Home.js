@@ -14,7 +14,7 @@ export default function Home({setMode}) {
                     <h2 className='thearpyHeading'>Talk to Therapist</h2>
                     <p className='underText'>Engage with our top-tier language model therapist using your choice of voice for a personalized experience.</p>
                 </div>
-                <div className="api-section homeSection" onClick={()=>{setMode(1)}}>
+                <div className="api-section homeSection" onClick={()=>{setMode(4)}}>
                     <h2 className='diaryHeading'>Voice Diary</h2>
                     <p className='underText'>Create a voice diary that can transform your entries into songs for a unique and creative experience.</p>
                 </div>

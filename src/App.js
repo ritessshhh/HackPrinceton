@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import UploadFile from "./Pages/uploadFile";
 import Loading from "./Pages/Loading";
 import SpeechToText from "./Pages/speechToText";
+import Voices from "./Pages/Voices";
 
 import {useState} from "react";
 function App() {
@@ -21,8 +22,8 @@ function App() {
                             return <Loading setMode={setMode}/>;
                         case 3:
                             return <SpeechToText setMode={setMode}/>
-                        // case 4:
-                        //     return <AnswerForm model={model} setMode={setMode} qstn={visitedQuestion}/>
+                        case 4:
+                            return <Voices setMode={setMode}/>
                         // default:
                         //     return null; // Handle default case if needed
                     }
